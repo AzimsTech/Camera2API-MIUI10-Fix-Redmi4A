@@ -9,7 +9,7 @@ I just found and picked up the necessary file for Camera2API to work from MIUI10
 
     system\lib\hw\camera.msm8937.so
   
-This module also adds camera2api support in the build.prop systemlessly. This is done by editing build.prop to add or enable "persist.camera.HAL3.enabled=1". 
+This module also adds camera2api support in the build.prop systemlessly, so you don't have to. This is done by editing build.prop to add or enable "persist.camera.HAL3.enabled=1". 
 
 # Trobleshooting
 1. Install Camera2 Probe from playstore to check if it working.
