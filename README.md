@@ -5,7 +5,7 @@
 
 Starting with the MIUI 10 update, Xiaomi decided to remove camera2 api files in system. As such, Redmi 4A/5A users which uses MIUI will not able to enable camera 2 API support. MIUI 10 lacks lib file which is require for camera2 api functionality to work.
 
-I just found and picked up the necessary file for Camera2API to work from MIUI10.
+I just found and picked up the necessary file for Camera2API to work from MIUI10. Thanks to the guy @ 4pda forum
 
     system\lib\hw\camera.msm8937.so
   
@@ -15,3 +15,7 @@ This module also adds camera2api support in the build.prop systemlessly, so you 
 1. Install Camera2 Probe from playstore to check if it working.
 ![example](https://i.imgur.com/o8IvgzV.png)
 2. If your gcam app still doesn't work please use another one from [https://www.celsoazevedo.com/files/android/google-camera/](https://www.celsoazevedo.com/files/android/google-camera/)
+
+# Research
+- [Redmi 4A thread - 4pda forum](https://w3bsit3-dns.com/forum/index.php?showtopic=788220&st=26980)
+- [Question thread - offical MIUI forum](https://en.miui.com/thread-4448807-1-1.html)
