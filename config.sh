@@ -25,7 +25,7 @@
 AUTOMOUNT=true
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
@@ -40,9 +40,10 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
-  ui_print "*******************************"
+  ui_print "*****************************************"
+  ui_print "  Fix Camera2API in MIUI10 (Redmi4A/5A)  "
+  ui_print "             by AzimsTech                "
+  ui_print "*****************************************"
 }
 
 ##########################################################################################
