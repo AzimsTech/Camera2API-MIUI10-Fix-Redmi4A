@@ -14,4 +14,4 @@ This module also adds camera2api support in the build.prop systemlessly, so you 
 # Trobleshooting
 1. Install Camera2 Probe from playstore to check if it working.
 ![example](https://i.imgur.com/o8IvgzV.png)
-2. If your gcam app still doesnt work please use another one from [https://www.celsoazevedo.com/files/android/google-camera/](https://www.celsoazevedo.com/files/android/google-camera/)
+2. If your gcam app still doesn't work please use another one from [https://www.celsoazevedo.com/files/android/google-camera/](https://www.celsoazevedo.com/files/android/google-camera/)
