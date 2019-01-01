@@ -7,7 +7,7 @@ Starting with the MIUI 10 update, Xiaomi decided to remove camera2 api files in 
 
 I just found and picked up the necessary file for Camera2API to work from MIUI10.
 
-  system\lib\hw\camera.msm8937.so
+    system\lib\hw\camera.msm8937.so
   
 This module also adds camera2api support in the build.prop systemlessly. This is done by editing build.prop to add or enable "persist.camera.HAL3.enabled=1". 
 
