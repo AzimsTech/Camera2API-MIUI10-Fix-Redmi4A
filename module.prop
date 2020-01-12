@@ -4,4 +4,3 @@ version=v1
 versionCode=1
 author=AzimsTech
 description=Enable Camera2 API support in MIUI10 for Redmi 4A/5A
-minMagisk=17000
